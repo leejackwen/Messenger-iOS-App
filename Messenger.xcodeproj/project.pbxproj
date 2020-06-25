@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0411C11B24997E6100695175 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411C11A24997E6100695175 /* Extensions.swift */; };
+		041CEB5C24A3F2B8007ACCA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEB5B24A3F2B8007ACCA5 /* ChatViewController.swift */; };
+		044D878624A4E7D40062F00E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D878524A4E7D40062F00E /* StorageManager.swift */; };
 		046D7AE624997766009ABF05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D7AE524997766009ABF05 /* AppDelegate.swift */; };
 		046D7AE824997766009ABF05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D7AE724997766009ABF05 /* SceneDelegate.swift */; };
 		046D7AEA24997766009ABF05 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D7AE924997766009ABF05 /* ConversationsViewController.swift */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0411C11A24997E6100695175 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		041CEB5B24A3F2B8007ACCA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		044D878524A4E7D40062F00E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		046D7AE224997766009ABF05 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046D7AE524997766009ABF05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046D7AE724997766009ABF05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				046D7B0524997952009ABF05 /* VideoPlayerViewController.swift */,
 				046D7B072499796D009ABF05 /* NewConversationViewController.swift */,
 				046D7B0924997986009ABF05 /* ProfileViewController.swift */,
+				041CEB5B24A3F2B8007ACCA5 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				046D7AE724997766009ABF05 /* SceneDelegate.swift */,
 				0411C11A24997E6100695175 /* Extensions.swift */,
 				047978F9249E45E500DE2850 /* DatabaseManager.swift */,
+				044D878524A4E7D40062F00E /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -319,7 +325,9 @@
 				046D7AE624997766009ABF05 /* AppDelegate.swift in Sources */,
 				046D7B0A24997986009ABF05 /* ProfileViewController.swift in Sources */,
 				046D7AE824997766009ABF05 /* SceneDelegate.swift in Sources */,
+				041CEB5C24A3F2B8007ACCA5 /* ChatViewController.swift in Sources */,
 				046D7B0424997945009ABF05 /* PhotoViewerViewController.swift in Sources */,
+				044D878624A4E7D40062F00E /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
